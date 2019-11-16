@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{719493D9-780A-496A-ABE5-85BBB5DCF385}</ProjectGuid>
+    <ProjectGuid>{5A4BC6A2-AB97-4885-82AF-A7B53FE41725}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My06Antialiasing</RootNamespace>
+    <RootNamespace>My08Metal</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -159,7 +159,7 @@
     <ClInclude Include="vec3.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="antialiasing.cpp" />
+    <ClCompile Include="metal.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

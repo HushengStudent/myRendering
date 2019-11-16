@@ -29,7 +29,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02TheVec3Class.cpp">
+    <ClCompile Include="the_vec3_class.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

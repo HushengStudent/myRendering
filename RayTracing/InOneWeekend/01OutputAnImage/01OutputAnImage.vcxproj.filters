@@ -26,7 +26,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="01OutputAnImage.cpp">
+    <ClCompile Include="output_an_image.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,19 +21,28 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="hitable.h">
+    <ClInclude Include="material.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="hitable_list.h">
+    <ClInclude Include="random.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ray.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="vec3.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="sphere.h">
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hitable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hitable_list.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,7 +50,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="multiple_objects.cpp">
+    <ClCompile Include="metal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
