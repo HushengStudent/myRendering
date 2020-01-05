@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09Dielectrics", "09Dielectr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10PositionableCamera", "10PositionableCamera\10PositionableCamera.vcxproj", "{1F2B3863-3E56-403A-A0E9-476AAC352645}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11DefocusBlur", "11DefocusBlur\11DefocusBlur.vcxproj", "{46CAD9B4-0282-4C7F-BCFB-13139CE48240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{1F2B3863-3E56-403A-A0E9-476AAC352645}.Release|x64.Build.0 = Release|x64
 		{1F2B3863-3E56-403A-A0E9-476AAC352645}.Release|x86.ActiveCfg = Release|Win32
 		{1F2B3863-3E56-403A-A0E9-476AAC352645}.Release|x86.Build.0 = Release|Win32
+		{46CAD9B4-0282-4C7F-BCFB-13139CE48240}.Debug|x64.ActiveCfg = Debug|x64
+		{46CAD9B4-0282-4C7F-BCFB-13139CE48240}.Debug|x64.Build.0 = Debug|x64
+		{46CAD9B4-0282-4C7F-BCFB-13139CE48240}.Debug|x86.ActiveCfg = Debug|Win32
+		{46CAD9B4-0282-4C7F-BCFB-13139CE48240}.Debug|x86.Build.0 = Debug|Win32
+		{46CAD9B4-0282-4C7F-BCFB-13139CE48240}.Release|x64.ActiveCfg = Release|x64
+		{46CAD9B4-0282-4C7F-BCFB-13139CE48240}.Release|x64.Build.0 = Release|x64
+		{46CAD9B4-0282-4C7F-BCFB-13139CE48240}.Release|x86.ActiveCfg = Release|Win32
+		{46CAD9B4-0282-4C7F-BCFB-13139CE48240}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
