@@ -1,4 +1,4 @@
 ### myRendering
-#### ray tracing &amp; software renderer.
+#### 图形渲染
 
 software：visual studio2017.
