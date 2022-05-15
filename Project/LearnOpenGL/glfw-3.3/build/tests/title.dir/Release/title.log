@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/tests/CMakeLists.txt
+  title.c
+C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\tests\title.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  glad_gl.c
+  正在生成代码...
+  title.vcxproj -> C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\Release\title.exe

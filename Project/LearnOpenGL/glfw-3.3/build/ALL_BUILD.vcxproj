@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3E3C648F-6001-38BC-B4E4-FD83AED66649}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3 -BC:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/build --check-stamp-file C:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeSystem.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\cmake_uninstall.cmake.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw3.pc.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw3Config.cmake.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3 -BC:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/build --check-stamp-file C:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeSystem.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\cmake_uninstall.cmake.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw3.pc.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw3Config.cmake.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3 -BC:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/build --check-stamp-file C:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeSystem.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\cmake_uninstall.cmake.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw3.pc.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw3Config.cmake.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3 -BC:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/build --check-stamp-file C:/Users/husheng/Desktop/GitHub/myRendering/Project/LearnOpenGL/glfw-3.3/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\3.23.1\CMakeSystem.cmake;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\cmake_uninstall.cmake.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw3.pc.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw3Config.cmake.in;C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\ZERO_CHECK.vcxproj">
+      <Project>{C3D14309-D9BA-30DA-A481-B51FC1103866}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\examples\boing.vcxproj">
+      <Project>{4707C9D2-C923-359A-B183-8A5BA000E5EF}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\clipboard.vcxproj">
+      <Project>{2C1B22E4-2301-39AE-9919-E5BD721BA246}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\cursor.vcxproj">
+      <Project>{BAE55971-D4A1-3104-B351-8BFB90DA054E}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\empty.vcxproj">
+      <Project>{D5C7A013-0FD0-37DB-80D8-C0D2603DA2FB}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\events.vcxproj">
+      <Project>{F947FA27-07CF-3BC3-BB67-CBFC10883BF9}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\gamma.vcxproj">
+      <Project>{6296E278-A798-32F7-A981-2549A70171D9}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\examples\gears.vcxproj">
+      <Project>{695E7F79-8B68-316C-9FFE-2129CEC4C6F8}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\src\glfw.vcxproj">
+      <Project>{B7F99002-48D9-368B-849B-E66DBE7AEB7F}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\glfwinfo.vcxproj">
+      <Project>{6AF46016-E739-3EB9-A4A3-FAC6D0958382}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\examples\heightmap.vcxproj">
+      <Project>{6DC5DE72-FF79-3A14-9FEA-BB8F2CE9B28B}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\icon.vcxproj">
+      <Project>{11FBFC69-56CE-39D4-9A63-815165E0328D}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\iconify.vcxproj">
+      <Project>{A1B13557-1FB0-39D8-B4FE-CAD5247A81C1}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\inputlag.vcxproj">
+      <Project>{B50D3B19-A028-318E-88BE-99F138B33E23}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\joysticks.vcxproj">
+      <Project>{02680AE9-AAAF-3F67-A961-DD586C340959}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\monitors.vcxproj">
+      <Project>{3D6EE95B-AF89-3364-A808-4D8A3724D1AD}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\msaa.vcxproj">
+      <Project>{13FB3E4C-FC25-3896-BA36-BB64216AFB2E}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\examples\offscreen.vcxproj">
+      <Project>{317564F5-F09B-330E-B1DE-9C6FF9E2F029}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\opacity.vcxproj">
+      <Project>{CED9859D-BC56-388F-B12B-D33267AADBC4}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\examples\particles.vcxproj">
+      <Project>{F05AC768-27E5-317E-B9EF-15ECC174F6C9}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\reopen.vcxproj">
+      <Project>{EC9A7237-76CD-398D-AA71-B25CA9174F2E}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\examples\sharing.vcxproj">
+      <Project>{5714DB7B-1C7C-30BF-A663-9049245376EF}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\examples\simple.vcxproj">
+      <Project>{21B8B509-7536-367A-9695-7F4CC687A2BF}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\examples\splitview.vcxproj">
+      <Project>{CA48972F-2085-3AEF-B400-217F7D5E69CD}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\tearing.vcxproj">
+      <Project>{C2F3435A-6E99-307E-B77A-EBF487F24E27}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\threads.vcxproj">
+      <Project>{71E4B575-3D19-3637-8772-53C76858B71B}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\timeout.vcxproj">
+      <Project>{DE2B06BF-01C8-359C-914C-AA3D3DB6A8CA}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\title.vcxproj">
+      <Project>{D6996545-8C42-38AD-AB9A-69F9263B5F1D}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\vulkan.vcxproj">
+      <Project>{7BC66ED6-8E4A-38B8-A909-DEBF2C2E250A}</Project>
+      <Name>vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\examples\wave.vcxproj">
+      <Project>{0B194999-7628-30C0-BC83-94DF4A74C1B0}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\tests\windows.vcxproj">
+      <Project>{3168490E-1911-355A-B33C-7E3477E3C1A3}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
