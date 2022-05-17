@@ -15,25 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="hello_window.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="glad.c">
+    <ClCompile Include="..\common\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="example01.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="example02.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="example01.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="example02.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
