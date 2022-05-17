@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\common\glad.c">
+    <ClCompile Include="hello_triangle_exercise3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="hello_window_clear.cpp">
+    <ClCompile Include="..\common\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
