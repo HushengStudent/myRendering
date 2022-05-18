@@ -1,1 +1,1 @@
-C:/Microsoft Visual Studio 2017/Enterprise/Common7/IDE/VC/VCTargets
+C:/Microsoft Visual Studio/2019/Community/MSBuild/Microsoft/VC/v160

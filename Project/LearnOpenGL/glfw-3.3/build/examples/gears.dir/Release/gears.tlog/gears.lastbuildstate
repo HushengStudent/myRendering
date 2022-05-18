@@ -1,2 +1,2 @@
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+PlatformToolSet=v142:VCToolArchitecture=Native64Bit:VCToolsVersion=14.29.30133:TargetPlatformVersion=8.1:
 Release|x64|C:\Users\husheng\Desktop\GitHub\myRendering\Project\LearnOpenGL\glfw-3.3\build\|
