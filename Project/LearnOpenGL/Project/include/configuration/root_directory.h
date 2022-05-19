@@ -1,0 +1,1 @@
+const char* logl_root = "C:/Users/husheng/Desktop/LearnOpenGL-master";
