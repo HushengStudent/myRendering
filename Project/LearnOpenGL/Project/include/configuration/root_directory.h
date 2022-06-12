@@ -1,1 +1,1 @@
-const char* logl_root = "C:/Users/husheng/Desktop/LearnOpenGL-master";
+const char* logl_root = "C:/Users/Administrator/Desktop/LearnOpenGL-master";
