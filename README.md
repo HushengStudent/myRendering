@@ -3,4 +3,4 @@
 
 software：visual studio2019.
 
-![image](https://github.com/HushengStudent/myRendering/blob/master/Project/RayTracing/InOneWeekend/Image.png​​)
+![RayTracing](https://raw.githubusercontent.com/HushengStudent/myRendering/master/Project/RayTracing/InOneWeekend/Image.png)
