@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.6.multiple_lights", "2.6.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.6.multiple_lights_exercise1", "2.6.multiple_lights_exercise1\2.6.multiple_lights_exercise1.vcxproj", "{FEAD75EE-DA97-4160-A1E4-586F1AFF6A6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.1.model_loading", "3.1.model_loading\3.1.model_loading.vcxproj", "{6AA333EA-D949-44BF-82D7-12F8B1314334}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -491,6 +493,14 @@ Global
 		{FEAD75EE-DA97-4160-A1E4-586F1AFF6A6C}.Release|x64.Build.0 = Release|x64
 		{FEAD75EE-DA97-4160-A1E4-586F1AFF6A6C}.Release|x86.ActiveCfg = Release|Win32
 		{FEAD75EE-DA97-4160-A1E4-586F1AFF6A6C}.Release|x86.Build.0 = Release|Win32
+		{6AA333EA-D949-44BF-82D7-12F8B1314334}.Debug|x64.ActiveCfg = Debug|x64
+		{6AA333EA-D949-44BF-82D7-12F8B1314334}.Debug|x64.Build.0 = Debug|x64
+		{6AA333EA-D949-44BF-82D7-12F8B1314334}.Debug|x86.ActiveCfg = Debug|Win32
+		{6AA333EA-D949-44BF-82D7-12F8B1314334}.Debug|x86.Build.0 = Debug|Win32
+		{6AA333EA-D949-44BF-82D7-12F8B1314334}.Release|x64.ActiveCfg = Release|x64
+		{6AA333EA-D949-44BF-82D7-12F8B1314334}.Release|x64.Build.0 = Release|x64
+		{6AA333EA-D949-44BF-82D7-12F8B1314334}.Release|x86.ActiveCfg = Release|Win32
+		{6AA333EA-D949-44BF-82D7-12F8B1314334}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
