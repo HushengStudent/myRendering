@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0.full_source\ball_object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\game_level.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\game_object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\particle_generator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\post_processor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\program.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\resource_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\sprite_renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\text_renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.full_source\texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="0.full_source\particle.fs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\post_processing.fs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\sprite.fs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\text_2d.fs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\particle.vs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\post_processing.vs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\sprite.vs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\text_2d.vs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\levels\four.lvl">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\levels\one.lvl">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\levels\three.lvl">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="0.full_source\levels\two.lvl">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="0.full_source\ball_object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\game_level.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\game_object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\particle_generator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\post_processor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\power_up.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\resource_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\sprite_renderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\text_renderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.full_source\texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
